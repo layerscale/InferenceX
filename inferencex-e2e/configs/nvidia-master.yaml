@@ -5132,7 +5132,7 @@ qwen3.8next-fp4-b200-layerscale-agentic-mtp:
   image: layerscale/layerscale:latest-cuda@sha256:0bf6107ab1bf2c910bbf482dc048bb21ab7d9a6f059afb6dfa2e9dffd8985b4f
   model: RadixArk/Qwen3.8-Flash-Next-NVFP4
   model-prefix: qwen3.8next
-  runner: cluster:b200-nscale
+  runner: cluster:b200-layerscale
   precision: fp4
   framework: layerscale
   multinode: false
